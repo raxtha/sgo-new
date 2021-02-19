@@ -1,0 +1,11 @@
+User-agent: Twitterbot
+Allow: *
+
+User-agent: *
+Allow:*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow:*
+Allow: /
+Sitemap: https://stargateonline.id/sitemap.xml
