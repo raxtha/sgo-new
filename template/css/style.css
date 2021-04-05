@@ -384,7 +384,7 @@ header
   padding-right: 35px;
 }
 
-.header-area .main-nav .nav li.submenu:after {
+.  .main-nav .nav li.submenu:after {
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
@@ -1285,6 +1285,10 @@ services
   }
 }
 
+
+.img-fluid {
+  max-width: 97%;
+}
 /*
 ---------------------------------------------
 accordions
