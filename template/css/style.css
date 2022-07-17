@@ -708,6 +708,7 @@ welcome
   justify-content: center;
   background-image: url(../images/Artboard-3.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
 /*
 TRY IT ... with or without CENTER CENTER
   background-position: center center; 
@@ -1523,6 +1524,9 @@ footer {
 footer .social {
   overflow: hidden;
   text-align: right;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
 }
 
 footer .social li {
@@ -1785,4 +1789,42 @@ div#pop-up {
     color: black;
     cursor: pointer;
 }
-
+.black-opac{
+  background: rgba(0, 0, 0, .4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+.height-100{
+  height: 100%;
+}
+.register{
+  z-index: 1;
+}
+.register form input{
+  color: white;
+  background: rgba(251, 251, 251, 1);
+}
+.register h1 { 
+  color: rgb(253, 253, 253); 
+  letter-spacing:1px;   
+  text-align:center;
+  text-shadow: 2px 4px #0a0a0b;
+}
+.article{
+  text-align: justify;
+}
+.article p{
+  color: black;
+}
+.article .subtitle{
+  text-align: right;
+  width: 100%;
+  color: #666;
+  font-size: 12px!important;
+}
